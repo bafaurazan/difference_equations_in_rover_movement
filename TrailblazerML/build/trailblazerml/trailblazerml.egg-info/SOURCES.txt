@@ -1,0 +1,12 @@
+package.xml
+setup.cfg
+setup.py
+resource/trailblazerml
+trailblazerml/__init__.py
+trailblazerml.egg-info/PKG-INFO
+trailblazerml.egg-info/SOURCES.txt
+trailblazerml.egg-info/dependency_links.txt
+trailblazerml.egg-info/entry_points.txt
+trailblazerml.egg-info/requires.txt
+trailblazerml.egg-info/top_level.txt
+trailblazerml.egg-info/zip-safe

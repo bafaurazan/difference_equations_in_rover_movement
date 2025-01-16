@@ -1,0 +1,64 @@
+[0.982s] Invoking command in '/home/rafal/diff_Trailblazer/TrailblazerML/build/gazebo_viz': PYTHONPATH=/home/rafal/diff_Trailblazer/TrailblazerML/build/gazebo_viz/prefix_override:/home/rafal/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/rafal/diff_Trailblazer/TrailblazerML/install/gazebo_viz/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/rafal/diff_Trailblazer/TrailblazerML/build/gazebo_viz/build --no-deps symlink_data
+[1.200s] running develop
+[1.200s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.200s]   warnings.warn(
+[1.348s] running egg_info
+[1.349s] creating gazebo_viz.egg-info
+[1.349s] writing gazebo_viz.egg-info/PKG-INFO
+[1.349s] writing dependency_links to gazebo_viz.egg-info/dependency_links.txt
+[1.349s] writing entry points to gazebo_viz.egg-info/entry_points.txt
+[1.349s] writing requirements to gazebo_viz.egg-info/requires.txt
+[1.349s] writing top-level names to gazebo_viz.egg-info/top_level.txt
+[1.349s] writing manifest file 'gazebo_viz.egg-info/SOURCES.txt'
+[1.350s] reading manifest file 'gazebo_viz.egg-info/SOURCES.txt'
+[1.351s] writing manifest file 'gazebo_viz.egg-info/SOURCES.txt'
+[1.352s] running build_ext
+[1.352s] Creating /home/rafal/diff_Trailblazer/TrailblazerML/install/gazebo_viz/lib/python3.10/site-packages/gazebo-viz.egg-link (link to .)
+[1.354s] 
+[1.354s] Installed /home/rafal/diff_Trailblazer/TrailblazerML/build/gazebo_viz
+[1.354s] running symlink_data
+[1.354s] creating /home/rafal/diff_Trailblazer/TrailblazerML/install/gazebo_viz/share/ament_index
+[1.354s] creating /home/rafal/diff_Trailblazer/TrailblazerML/install/gazebo_viz/share/ament_index/resource_index
+[1.354s] creating /home/rafal/diff_Trailblazer/TrailblazerML/install/gazebo_viz/share/ament_index/resource_index/packages
+[1.354s] symbolically linking /home/rafal/diff_Trailblazer/TrailblazerML/build/gazebo_viz/resource/gazebo_viz -> /home/rafal/diff_Trailblazer/TrailblazerML/install/gazebo_viz/share/ament_index/resource_index/packages
+[1.354s] symbolically linking /home/rafal/diff_Trailblazer/TrailblazerML/build/gazebo_viz/package.xml -> /home/rafal/diff_Trailblazer/TrailblazerML/install/gazebo_viz/share/gazebo_viz
+[1.354s] creating /home/rafal/diff_Trailblazer/TrailblazerML/install/gazebo_viz/share/gazebo_viz/launch
+[1.354s] symbolically linking /home/rafal/diff_Trailblazer/TrailblazerML/build/gazebo_viz/launch/launch_robot.launch.py -> /home/rafal/diff_Trailblazer/TrailblazerML/install/gazebo_viz/share/gazebo_viz/launch
+[1.354s] symbolically linking /home/rafal/diff_Trailblazer/TrailblazerML/build/gazebo_viz/launch/teleop_twist_keyboard.launch.py -> /home/rafal/diff_Trailblazer/TrailblazerML/install/gazebo_viz/share/gazebo_viz/launch
+[1.354s] symbolically linking /home/rafal/diff_Trailblazer/TrailblazerML/build/gazebo_viz/launch/camera.launch.py -> /home/rafal/diff_Trailblazer/TrailblazerML/install/gazebo_viz/share/gazebo_viz/launch
+[1.354s] symbolically linking /home/rafal/diff_Trailblazer/TrailblazerML/build/gazebo_viz/launch/rplidar.launch.py -> /home/rafal/diff_Trailblazer/TrailblazerML/install/gazebo_viz/share/gazebo_viz/launch
+[1.354s] symbolically linking /home/rafal/diff_Trailblazer/TrailblazerML/build/gazebo_viz/launch/joystick.launch.py -> /home/rafal/diff_Trailblazer/TrailblazerML/install/gazebo_viz/share/gazebo_viz/launch
+[1.355s] symbolically linking /home/rafal/diff_Trailblazer/TrailblazerML/build/gazebo_viz/launch/rsp.launch.py -> /home/rafal/diff_Trailblazer/TrailblazerML/install/gazebo_viz/share/gazebo_viz/launch
+[1.355s] symbolically linking /home/rafal/diff_Trailblazer/TrailblazerML/build/gazebo_viz/launch/online_async_launch.py -> /home/rafal/diff_Trailblazer/TrailblazerML/install/gazebo_viz/share/gazebo_viz/launch
+[1.355s] symbolically linking /home/rafal/diff_Trailblazer/TrailblazerML/build/gazebo_viz/launch/navigation_launch.py -> /home/rafal/diff_Trailblazer/TrailblazerML/install/gazebo_viz/share/gazebo_viz/launch
+[1.355s] symbolically linking /home/rafal/diff_Trailblazer/TrailblazerML/build/gazebo_viz/launch/ball_tracker.launch.py -> /home/rafal/diff_Trailblazer/TrailblazerML/install/gazebo_viz/share/gazebo_viz/launch
+[1.355s] symbolically linking /home/rafal/diff_Trailblazer/TrailblazerML/build/gazebo_viz/launch/launch_sim.launch.py -> /home/rafal/diff_Trailblazer/TrailblazerML/install/gazebo_viz/share/gazebo_viz/launch
+[1.355s] symbolically linking /home/rafal/diff_Trailblazer/TrailblazerML/build/gazebo_viz/launch/localization_launch.py -> /home/rafal/diff_Trailblazer/TrailblazerML/install/gazebo_viz/share/gazebo_viz/launch
+[1.355s] creating /home/rafal/diff_Trailblazer/TrailblazerML/install/gazebo_viz/share/gazebo_viz/worlds
+[1.355s] symbolically linking /home/rafal/diff_Trailblazer/TrailblazerML/build/gazebo_viz/worlds/empty.world -> /home/rafal/diff_Trailblazer/TrailblazerML/install/gazebo_viz/share/gazebo_viz/worlds
+[1.355s] symbolically linking /home/rafal/diff_Trailblazer/TrailblazerML/build/gazebo_viz/worlds/obstacles.world -> /home/rafal/diff_Trailblazer/TrailblazerML/install/gazebo_viz/share/gazebo_viz/worlds
+[1.355s] creating /home/rafal/diff_Trailblazer/TrailblazerML/install/gazebo_viz/share/gazebo_viz/description
+[1.355s] symbolically linking /home/rafal/diff_Trailblazer/TrailblazerML/build/gazebo_viz/description/camera.xacro -> /home/rafal/diff_Trailblazer/TrailblazerML/install/gazebo_viz/share/gazebo_viz/description
+[1.355s] symbolically linking /home/rafal/diff_Trailblazer/TrailblazerML/build/gazebo_viz/description/robot_core.xacro -> /home/rafal/diff_Trailblazer/TrailblazerML/install/gazebo_viz/share/gazebo_viz/description
+[1.355s] symbolically linking /home/rafal/diff_Trailblazer/TrailblazerML/build/gazebo_viz/description/depth_camera.xacro -> /home/rafal/diff_Trailblazer/TrailblazerML/install/gazebo_viz/share/gazebo_viz/description
+[1.355s] symbolically linking /home/rafal/diff_Trailblazer/TrailblazerML/build/gazebo_viz/description/face.xacro -> /home/rafal/diff_Trailblazer/TrailblazerML/install/gazebo_viz/share/gazebo_viz/description
+[1.355s] symbolically linking /home/rafal/diff_Trailblazer/TrailblazerML/build/gazebo_viz/description/inertial_macros.xacro -> /home/rafal/diff_Trailblazer/TrailblazerML/install/gazebo_viz/share/gazebo_viz/description
+[1.355s] symbolically linking /home/rafal/diff_Trailblazer/TrailblazerML/build/gazebo_viz/description/ros2_control.xacro -> /home/rafal/diff_Trailblazer/TrailblazerML/install/gazebo_viz/share/gazebo_viz/description
+[1.355s] symbolically linking /home/rafal/diff_Trailblazer/TrailblazerML/build/gazebo_viz/description/robot.urdf.xacro -> /home/rafal/diff_Trailblazer/TrailblazerML/install/gazebo_viz/share/gazebo_viz/description
+[1.355s] symbolically linking /home/rafal/diff_Trailblazer/TrailblazerML/build/gazebo_viz/description/lidar.xacro -> /home/rafal/diff_Trailblazer/TrailblazerML/install/gazebo_viz/share/gazebo_viz/description
+[1.355s] symbolically linking /home/rafal/diff_Trailblazer/TrailblazerML/build/gazebo_viz/description/gazebo_control.xacro -> /home/rafal/diff_Trailblazer/TrailblazerML/install/gazebo_viz/share/gazebo_viz/description
+[1.355s] creating /home/rafal/diff_Trailblazer/TrailblazerML/install/gazebo_viz/share/gazebo_viz/config
+[1.355s] symbolically linking /home/rafal/diff_Trailblazer/TrailblazerML/build/gazebo_viz/config/twist_mux.yaml -> /home/rafal/diff_Trailblazer/TrailblazerML/install/gazebo_viz/share/gazebo_viz/config
+[1.355s] symbolically linking /home/rafal/diff_Trailblazer/TrailblazerML/build/gazebo_viz/config/gazebo_params.yaml -> /home/rafal/diff_Trailblazer/TrailblazerML/install/gazebo_viz/share/gazebo_viz/config
+[1.355s] symbolically linking /home/rafal/diff_Trailblazer/TrailblazerML/build/gazebo_viz/config/my_controllers_left.yaml -> /home/rafal/diff_Trailblazer/TrailblazerML/install/gazebo_viz/share/gazebo_viz/config
+[1.355s] symbolically linking /home/rafal/diff_Trailblazer/TrailblazerML/build/gazebo_viz/config/my_controllers_right.yaml -> /home/rafal/diff_Trailblazer/TrailblazerML/install/gazebo_viz/share/gazebo_viz/config
+[1.356s] symbolically linking /home/rafal/diff_Trailblazer/TrailblazerML/build/gazebo_viz/config/empty.yaml -> /home/rafal/diff_Trailblazer/TrailblazerML/install/gazebo_viz/share/gazebo_viz/config
+[1.356s] symbolically linking /home/rafal/diff_Trailblazer/TrailblazerML/build/gazebo_viz/config/my_controllers.yaml -> /home/rafal/diff_Trailblazer/TrailblazerML/install/gazebo_viz/share/gazebo_viz/config
+[1.356s] symbolically linking /home/rafal/diff_Trailblazer/TrailblazerML/build/gazebo_viz/config/mapper_params_online_async.yaml -> /home/rafal/diff_Trailblazer/TrailblazerML/install/gazebo_viz/share/gazebo_viz/config
+[1.356s] symbolically linking /home/rafal/diff_Trailblazer/TrailblazerML/build/gazebo_viz/config/ball_tracker_params_robot.yaml -> /home/rafal/diff_Trailblazer/TrailblazerML/install/gazebo_viz/share/gazebo_viz/config
+[1.356s] symbolically linking /home/rafal/diff_Trailblazer/TrailblazerML/build/gazebo_viz/config/joystick.yaml -> /home/rafal/diff_Trailblazer/TrailblazerML/install/gazebo_viz/share/gazebo_viz/config
+[1.356s] symbolically linking /home/rafal/diff_Trailblazer/TrailblazerML/build/gazebo_viz/config/gaz_ros2_ctl_use_sim.yaml -> /home/rafal/diff_Trailblazer/TrailblazerML/install/gazebo_viz/share/gazebo_viz/config
+[1.356s] symbolically linking /home/rafal/diff_Trailblazer/TrailblazerML/build/gazebo_viz/config/nav2_params.yaml -> /home/rafal/diff_Trailblazer/TrailblazerML/install/gazebo_viz/share/gazebo_viz/config
+[1.356s] symbolically linking /home/rafal/diff_Trailblazer/TrailblazerML/build/gazebo_viz/config/ball_tracker_params_sim.yaml -> /home/rafal/diff_Trailblazer/TrailblazerML/install/gazebo_viz/share/gazebo_viz/config
+[1.356s] creating /home/rafal/diff_Trailblazer/TrailblazerML/install/gazebo_viz/share/gazebo_viz/meshes
+[1.411s] Invoked command in '/home/rafal/diff_Trailblazer/TrailblazerML/build/gazebo_viz' returned '0': PYTHONPATH=/home/rafal/diff_Trailblazer/TrailblazerML/build/gazebo_viz/prefix_override:/home/rafal/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/rafal/diff_Trailblazer/TrailblazerML/install/gazebo_viz/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/rafal/diff_Trailblazer/TrailblazerML/build/gazebo_viz/build --no-deps symlink_data

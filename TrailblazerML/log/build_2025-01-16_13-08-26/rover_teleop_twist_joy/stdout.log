@@ -1,0 +1,24 @@
+running develop
+running egg_info
+creating rover_teleop_twist_joy.egg-info
+writing rover_teleop_twist_joy.egg-info/PKG-INFO
+writing dependency_links to rover_teleop_twist_joy.egg-info/dependency_links.txt
+writing entry points to rover_teleop_twist_joy.egg-info/entry_points.txt
+writing requirements to rover_teleop_twist_joy.egg-info/requires.txt
+writing top-level names to rover_teleop_twist_joy.egg-info/top_level.txt
+writing manifest file 'rover_teleop_twist_joy.egg-info/SOURCES.txt'
+reading manifest file 'rover_teleop_twist_joy.egg-info/SOURCES.txt'
+writing manifest file 'rover_teleop_twist_joy.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/rafal/diff_Trailblazer/TrailblazerML/install/rover_teleop_twist_joy/lib/python3.10/site-packages/rover-teleop-twist-joy.egg-link (link to .)
+Installing teleop_twist_node script to /home/rafal/diff_Trailblazer/TrailblazerML/install/rover_teleop_twist_joy/lib/rover_teleop_twist_joy
+
+Installed /home/rafal/diff_Trailblazer/TrailblazerML/build/rover_teleop_twist_joy
+running symlink_data
+creating /home/rafal/diff_Trailblazer/TrailblazerML/install/rover_teleop_twist_joy/share/ament_index
+creating /home/rafal/diff_Trailblazer/TrailblazerML/install/rover_teleop_twist_joy/share/ament_index/resource_index
+creating /home/rafal/diff_Trailblazer/TrailblazerML/install/rover_teleop_twist_joy/share/ament_index/resource_index/packages
+symbolically linking /home/rafal/diff_Trailblazer/TrailblazerML/build/rover_teleop_twist_joy/resource/rover_teleop_twist_joy -> /home/rafal/diff_Trailblazer/TrailblazerML/install/rover_teleop_twist_joy/share/ament_index/resource_index/packages
+symbolically linking /home/rafal/diff_Trailblazer/TrailblazerML/build/rover_teleop_twist_joy/package.xml -> /home/rafal/diff_Trailblazer/TrailblazerML/install/rover_teleop_twist_joy/share/rover_teleop_twist_joy
+creating /home/rafal/diff_Trailblazer/TrailblazerML/install/rover_teleop_twist_joy/share/rover_teleop_twist_joy/launch
+symbolically linking /home/rafal/diff_Trailblazer/TrailblazerML/build/rover_teleop_twist_joy/launch/teleop_twist_launch.py -> /home/rafal/diff_Trailblazer/TrailblazerML/install/rover_teleop_twist_joy/share/rover_teleop_twist_joy/launch

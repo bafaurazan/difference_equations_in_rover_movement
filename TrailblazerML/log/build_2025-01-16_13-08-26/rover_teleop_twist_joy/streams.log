@@ -1,0 +1,28 @@
+[0.979s] Invoking command in '/home/rafal/diff_Trailblazer/TrailblazerML/build/rover_teleop_twist_joy': PYTHONPATH=/home/rafal/diff_Trailblazer/TrailblazerML/build/rover_teleop_twist_joy/prefix_override:/home/rafal/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/rafal/diff_Trailblazer/TrailblazerML/install/rover_teleop_twist_joy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/rafal/diff_Trailblazer/TrailblazerML/build/rover_teleop_twist_joy/build --no-deps symlink_data
+[1.193s] running develop
+[1.193s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.193s]   warnings.warn(
+[1.341s] running egg_info
+[1.342s] creating rover_teleop_twist_joy.egg-info
+[1.342s] writing rover_teleop_twist_joy.egg-info/PKG-INFO
+[1.342s] writing dependency_links to rover_teleop_twist_joy.egg-info/dependency_links.txt
+[1.342s] writing entry points to rover_teleop_twist_joy.egg-info/entry_points.txt
+[1.342s] writing requirements to rover_teleop_twist_joy.egg-info/requires.txt
+[1.342s] writing top-level names to rover_teleop_twist_joy.egg-info/top_level.txt
+[1.343s] writing manifest file 'rover_teleop_twist_joy.egg-info/SOURCES.txt'
+[1.343s] reading manifest file 'rover_teleop_twist_joy.egg-info/SOURCES.txt'
+[1.344s] writing manifest file 'rover_teleop_twist_joy.egg-info/SOURCES.txt'
+[1.345s] running build_ext
+[1.345s] Creating /home/rafal/diff_Trailblazer/TrailblazerML/install/rover_teleop_twist_joy/lib/python3.10/site-packages/rover-teleop-twist-joy.egg-link (link to .)
+[1.345s] Installing teleop_twist_node script to /home/rafal/diff_Trailblazer/TrailblazerML/install/rover_teleop_twist_joy/lib/rover_teleop_twist_joy
+[1.346s] 
+[1.346s] Installed /home/rafal/diff_Trailblazer/TrailblazerML/build/rover_teleop_twist_joy
+[1.346s] running symlink_data
+[1.346s] creating /home/rafal/diff_Trailblazer/TrailblazerML/install/rover_teleop_twist_joy/share/ament_index
+[1.346s] creating /home/rafal/diff_Trailblazer/TrailblazerML/install/rover_teleop_twist_joy/share/ament_index/resource_index
+[1.346s] creating /home/rafal/diff_Trailblazer/TrailblazerML/install/rover_teleop_twist_joy/share/ament_index/resource_index/packages
+[1.346s] symbolically linking /home/rafal/diff_Trailblazer/TrailblazerML/build/rover_teleop_twist_joy/resource/rover_teleop_twist_joy -> /home/rafal/diff_Trailblazer/TrailblazerML/install/rover_teleop_twist_joy/share/ament_index/resource_index/packages
+[1.347s] symbolically linking /home/rafal/diff_Trailblazer/TrailblazerML/build/rover_teleop_twist_joy/package.xml -> /home/rafal/diff_Trailblazer/TrailblazerML/install/rover_teleop_twist_joy/share/rover_teleop_twist_joy
+[1.347s] creating /home/rafal/diff_Trailblazer/TrailblazerML/install/rover_teleop_twist_joy/share/rover_teleop_twist_joy/launch
+[1.347s] symbolically linking /home/rafal/diff_Trailblazer/TrailblazerML/build/rover_teleop_twist_joy/launch/teleop_twist_launch.py -> /home/rafal/diff_Trailblazer/TrailblazerML/install/rover_teleop_twist_joy/share/rover_teleop_twist_joy/launch
+[1.390s] Invoked command in '/home/rafal/diff_Trailblazer/TrailblazerML/build/rover_teleop_twist_joy' returned '0': PYTHONPATH=/home/rafal/diff_Trailblazer/TrailblazerML/build/rover_teleop_twist_joy/prefix_override:/home/rafal/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/rafal/diff_Trailblazer/TrailblazerML/install/rover_teleop_twist_joy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/rafal/diff_Trailblazer/TrailblazerML/build/rover_teleop_twist_joy/build --no-deps symlink_data

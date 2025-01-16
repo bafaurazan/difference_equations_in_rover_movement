@@ -1,0 +1,11 @@
+utils/position.json
+utils/target.json
+data/
+data1500/**
+*.png
+*.zip
+*.tar.gz
+.idea/
+__pycache__/
+src/measurement/
+src/vision/oak/sectors.npy

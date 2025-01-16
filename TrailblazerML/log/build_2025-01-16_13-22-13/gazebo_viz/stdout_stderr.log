@@ -1,0 +1,19 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+writing gazebo_viz.egg-info/PKG-INFO
+writing dependency_links to gazebo_viz.egg-info/dependency_links.txt
+writing entry points to gazebo_viz.egg-info/entry_points.txt
+writing requirements to gazebo_viz.egg-info/requires.txt
+writing top-level names to gazebo_viz.egg-info/top_level.txt
+reading manifest file 'gazebo_viz.egg-info/SOURCES.txt'
+writing manifest file 'gazebo_viz.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/rafal/diff_Trailblazer/TrailblazerML/install/gazebo_viz/lib/python3.10/site-packages/gazebo-viz.egg-link (link to .)
+
+Installed /home/rafal/diff_Trailblazer/TrailblazerML/build/gazebo_viz
+running symlink_data
+symbolically linking /home/rafal/diff_Trailblazer/TrailblazerML/build/gazebo_viz/meshes/body.stl -> /home/rafal/diff_Trailblazer/TrailblazerML/install/gazebo_viz/share/gazebo_viz/meshes
+symbolically linking /home/rafal/diff_Trailblazer/TrailblazerML/build/gazebo_viz/meshes/wheel_right.stl -> /home/rafal/diff_Trailblazer/TrailblazerML/install/gazebo_viz/share/gazebo_viz/meshes
+symbolically linking /home/rafal/diff_Trailblazer/TrailblazerML/build/gazebo_viz/meshes/wheel_left.stl -> /home/rafal/diff_Trailblazer/TrailblazerML/install/gazebo_viz/share/gazebo_viz/meshes

@@ -1,0 +1,18 @@
+[0.877s] Invoking command in '/home/rafal/diff_Trailblazer/TrailblazerML/build/trailblazerml': PYTHONPATH=/home/rafal/diff_Trailblazer/TrailblazerML/build/trailblazerml/prefix_override:/home/rafal/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/rafal/diff_Trailblazer/TrailblazerML/install/trailblazerml/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/rafal/diff_Trailblazer/TrailblazerML/build/trailblazerml/build --no-deps symlink_data
+[1.067s] running develop
+[1.068s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.068s]   warnings.warn(
+[1.208s] running egg_info
+[1.208s] writing trailblazerml.egg-info/PKG-INFO
+[1.209s] writing dependency_links to trailblazerml.egg-info/dependency_links.txt
+[1.209s] writing entry points to trailblazerml.egg-info/entry_points.txt
+[1.209s] writing requirements to trailblazerml.egg-info/requires.txt
+[1.209s] writing top-level names to trailblazerml.egg-info/top_level.txt
+[1.210s] reading manifest file 'trailblazerml.egg-info/SOURCES.txt'
+[1.210s] writing manifest file 'trailblazerml.egg-info/SOURCES.txt'
+[1.211s] running build_ext
+[1.212s] Creating /home/rafal/diff_Trailblazer/TrailblazerML/install/trailblazerml/lib/python3.10/site-packages/trailblazerml.egg-link (link to .)
+[1.212s] 
+[1.212s] Installed /home/rafal/diff_Trailblazer/TrailblazerML/build/trailblazerml
+[1.212s] running symlink_data
+[1.256s] Invoked command in '/home/rafal/diff_Trailblazer/TrailblazerML/build/trailblazerml' returned '0': PYTHONPATH=/home/rafal/diff_Trailblazer/TrailblazerML/build/trailblazerml/prefix_override:/home/rafal/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/rafal/diff_Trailblazer/TrailblazerML/install/trailblazerml/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/rafal/diff_Trailblazer/TrailblazerML/build/trailblazerml/build --no-deps symlink_data
