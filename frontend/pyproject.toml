@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "frontend-difference-equations-in-rover-movement"
+version = "0.1.0"
+description = ""
+authors = ["sand194 <piasekj1602@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+scipy = "^1.15.1"
+streamlit = "^1.41.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
