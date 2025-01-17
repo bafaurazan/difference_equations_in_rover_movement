@@ -6,3 +6,7 @@ tmp/
 *.egg
 build
 htmlcov
+
+__pycache__/
+
+poetry.lock
