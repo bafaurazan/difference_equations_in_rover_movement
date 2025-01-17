@@ -3,7 +3,7 @@
 ## Wprowadzenie do projektu
 
 Projekt symulacji ruchu łazika mobilnego został opracowany jako narzędzie edukacyjne i badawcze, mające na celu zrozumienie dynamiki ruchu robotów mobilnych oraz sposobów ich sterowania.  
-Symulacja bazuje na równaniach różniczkowych opisujących ruch w dwóch wymiarach, uwzględniając:
+Symulacja bazuje na równaniach różniczkowych oraz różnicowych opisujących ruch w dwóch wymiarach, uwzględniając:
 
 - Prędkość liniową,
 - Prędkość kątową,
@@ -36,13 +36,13 @@ Dzięki dodatkowej integracji systemów ROS 2 oraz symulacji Gazebo projekt umo�
 ### Równania kinematyczne ruchu łazika
 Ruch łazika jest opisany za pomocą równań różniczkowych:
 - Położenie w osi $(x)$ i $(y)$:
-  $$
-  \frac{dx}{dt} = v \cos(\theta), \quad \frac{dy}{dt} = v \sin(\theta)
-  $$
+  
+  $\frac{dx}{dt} = v \cos(\theta), \quad \frac{dy}{dt} = v \sin(\theta)$
+
 - Zmiana orientacji kątowej:
-  $$
-  \frac{d\theta}{dt} = \omega
-  $$
+  
+  $\frac{d\theta}{dt} = \omega$
+  
   Gdzie:
   - $(x, y)$ – współrzędne pozycji łazika,
   - $(\theta)$ – orientacja łazika względem osi $(x)$,
@@ -53,23 +53,39 @@ Ruch łazika jest opisany za pomocą równań różniczkowych:
 
 ### Uwzględnienie ruchu kół
 Prędkość kątowa wynika z różnicy prędkości kół:
-$$
-\omega = \frac{v_R - v_L}{d}
-$$
+
+$\omega = \frac{v_R - v_L}{d}$
+
 Gdzie:
 - $(v_R)$, $(v_L)$ – prędkości kół prawego i lewego,
 - $(d)$ – odległość między kołami (rozstaw osi).
 
 ---
 
+### Równania różnicowe
+Do obliczeń numerycznych stanu łazika w kolejnych krokach czasowych wykorzystano równania różnicowe:
+- Położenie:
+  
+  $x_{k+1} = x_k + v_k \cos(\theta_k) \Delta t, \quad y_{k+1} = y_k + v_k \sin(\theta_k) \Delta t$
+  
+- Orientacja:
+  
+  $\theta_{k+1} = \theta_k + \omega_k \Delta t$
+
+Gdzie:
+- $k$ oznacza bieżący krok czasowy,
+- $\Delta t$ – interwał czasowy.
+
+---
+
 ### Rozwiązanie równań różniczkowych
 Symulacja korzysta z metody numerycznej integracji:
-$$
-\text{state}(t) = \text{odeint} \big( \text{diff\_drive\_ode}, \text{state}(t_0), t, \text{args}=(v, \omega) \big)
-$$
+
+$\text{state}(t) = \text{odeint} \big( \text{diff-drive-ode}, \text{state}(t_0), t, \text{args}=(v, \omega) \big)$
+
 Gdzie:
 - $(\text{odeint})$ – funkcja z biblioteki `scipy`,
-- $(\text{state}(t))$ – stan łazika (pozycja $(x, y)$ i orientacja $(\theta)$) w chwili $(t)$.
+- $(\text{state}(t))$ – stan łazika (pozycja $(x, y)$ i orientacja $(\theta)$ ) w chwili $(t)$.
 
 ---
 
@@ -114,14 +130,14 @@ Projekt może być używany w:
 
 Projekt został podzielony na moduły znajdujące się w odpowiednich folderach:
 
-## ROS 2 Workspace ( `/ros2_ws`)
+## ROS 2 Workspace (`/ros2_ws`)
 
-Zawiera wszystkie pakiety ROS 2 niezbędne do uruchomienia oprogramowa symulującego równania różnicowe
+Zawiera wszystkie pakiety ROS 2 niezbędne do uruchomienia oprogramowania symulującego równania różnicowe.
 
-## TrailblazerML ROS2 Project ( `/TrailblazerML`)
+## TrailblazerML ROS2 Project (`/TrailblazerML`)
 
-Zawiera projekt oparty na ROS2, korzystający z dystrybucji „humble”. Projekt integruje symulację, wizualizację, teleoperację i sterowania robotem.
+Zawiera projekt oparty na ROS 2, korzystający z dystrybucji „humble”. Projekt integruje symulację, wizualizację, teleoperację i sterowanie robotem.
 
-## Streamlit frontend ( `/frontend`)
+## Streamlit frontend (`/frontend`)
 
 Odpowiada za interfejs użytkownika oraz wizualizację wyników symulacji równań różniczkowych.
