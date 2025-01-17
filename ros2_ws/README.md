@@ -137,7 +137,6 @@ ros2 launch gazebo_viz launch_sim.launch.py
 ---
 ```bash
 cd ~/difference_equations_in_rover_movement/ros2_ws
-colcon build
 source install/local_setup.bash
 ros2 run rover_control diff_test 2.3 1.5 2.0 2.0
 # args: [right, left, forward, backward]
